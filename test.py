@@ -11,3 +11,9 @@ def is_narcissistic(n):
     print(sum(int(a) ** length for a in num) == n)
 
 is_narcissistic(153)
+
+
+def Descending_Order(num):
+    print(int("".join(sorted(str(num), reverse=True))))
+
+Descending_Order(12345678798)

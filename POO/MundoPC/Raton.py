@@ -14,11 +14,11 @@ class Raton(Dispositivo_Entrada):
 
 
 if __name__ == '__main__':
-    raton1 = Raton('Ratón', 'Dell')
-    raton2 = Raton('Ratón', 'HP')
-    raton3 = Raton('Ratón', 'Compac')
-    raton4 = Raton('Ratón', 'LG')
-    raton5 = Raton('Ratón', 'Samsung')
+    raton1 = Raton('USB', 'Dell')
+    raton2 = Raton('USB', 'HP')
+    raton3 = Raton('USB', 'Compac')
+    raton4 = Raton('USB', 'LG')
+    raton5 = Raton('USB', 'Samsung')
 
     print(raton1)
     print(raton2)

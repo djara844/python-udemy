@@ -4,7 +4,7 @@ class Orden:
     def __init__(self, computadoras):
         Orden.contador_orden += 1
         self._id_orden = Orden.contador_orden
-        self._computadoras = list(computadoras)
+        self._computadoras = computadoras
 
     @property
     def id_orden(self):
@@ -23,7 +23,7 @@ class Orden:
         self.computadoras = list(computadoras)
 
     def agregar_computadora(self, computadora):
-        self._computadoras = self._computadoras.append(computadora)
+        self._computadoras.append(computadora)
 
     def __str__(self):
         computadoras_str = ''

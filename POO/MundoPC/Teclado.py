@@ -14,11 +14,11 @@ class Teclado(Dispositivo_Entrada):
 
 
 if __name__ == '__main__':
-    teclado1 = Teclado('Teclado', 'dell')
-    teclado2 = Teclado('Teclado', 'HP')
-    teclado3 = Teclado('Teclado', 'Compac')
-    teclado4 = Teclado('Teclado', 'LG')
-    teclado5 = Teclado('Teclado', 'Samsung')
+    teclado1 = Teclado('USB', 'dell')
+    teclado2 = Teclado('USB', 'HP')
+    teclado3 = Teclado('USB', 'Compac')
+    teclado4 = Teclado('USB', 'LG')
+    teclado5 = Teclado('USB', 'Samsung')
 
     teclado1.marca = 'Dells'
 
